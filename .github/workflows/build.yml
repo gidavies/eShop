@@ -20,6 +20,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./eShopOnWeb.sln
     - name: Build
-      run: dotnet build --no-restore ./eShopOnWeb.sln –configuration Release
+      run: dotnet build --no-restore ./eShopOnWeb.sln -–configuration Release
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./eShopOnWeb.sln –configuration Release
+      run: dotnet test --no-build --verbosity normal ./eShopOnWeb.sln -–configuration Release
